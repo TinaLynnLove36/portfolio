@@ -97,18 +97,7 @@ body {
     padding: 25px;
   }
 
-.nav-link::before,
-.nav-link::after {
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    left: 0;
-    transform: scaleX(0);
-    transition: transform 0.3s;
-
-}  
+ 
 
 .initial {
     font-family: 'Great Vibes', cursive;
@@ -132,19 +121,49 @@ body {
     color: white;
     font-size: 250%;
 }
-aside h3 {
-    color: white;
-    word-spacing: 30px;
+
+
+.fbPortfolio {
+    
+        color: white;
+        word-spacing: 30px;
+        position: absolute;
+        left: 0;
+        margin-left: 30px;
+        transform-origin: 0 0;
+        transform: rotate(270deg);
+        margin-top: 365px;
+        
+       
+    
+}
+
+.linkPortfolio {
     position: absolute;
     left: 0;
     margin-left: 30px;
     transform-origin: 0 0;
     transform: rotate(270deg);
-    margin-top: 365px;
+    margin-top: 320px;
+    
    
+
 }
 
+.emailPortfolio {
+    
+ 
 
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin-top: 270px;
+    
+   
+
+}
 
 .mainimg {
     opacity: 0.8;
@@ -161,8 +180,10 @@ aside h3 {
     width: 19%;
     height: 50%;
     left: 60%;
-    margin-top: 135px; 
+    margin-top: 110px; 
     position: absolute;
+    border: 5px solid white;
+    border-radius: 25px;
 }
 
 
@@ -241,11 +262,7 @@ aside h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-   
-   
-   
-    
+    flex-direction: column;  
 }
 
 .contact .content {
@@ -405,11 +422,39 @@ margin-right: 300px; */
         position: center;
        
     }
-    aside h3 {
-        margin-top: 30px;
-        transform: rotate(0deg);
+    .symbolsIndex {
+       display: none;
+        
         
     }
+
+    .contain {
+      position: relative;
+ 
+        margin-right: -1050px;
+        
+    }
+    .aboutSymbols {
+        transform: rotate(270deg);
+        margin-top: 350px;
+    }
+
+ .contactImg {
+     margin-left: -100px;
+     margin-right: 500px;
  }
+
+    .contactForm {
+        position: absolute;
+        margin-top: 900px;
+    }
+   
+
+    .contactSymbols {
+        display:none;
+    }
+ }
+
+ 
 
  
