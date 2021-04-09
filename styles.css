@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    font-family: "Dosis", sans-serif;
+    background: 
+    url("https://i.postimg.cc/3r0r9h6g/jeremy-bishop-G9i-plbf-Dgk-unsplash.jpg") 0 55px;
+    background-size: cover;
+   
+   
+  }
+  html {
+      scroll-behavior: smooth;
+  }
+  
+ /*  .container {
+    width: 100%;
+      height: 100%;
+      background: linear-gradient(rgba(0, 0, 0, .4),
+      rgba(148, 48, 48, .2), rgba(167, 67, 67, .4)),
+      url('https://i.postimg.cc/3r0r9h6g/jeremy-bishop-G9i-plbf-Dgk-unsplash.jpg') center no-repeat;
+      background-size: cover;
+
+      linear-gradient(rgba(0, 0, 0, .4),
+    rgba(148, 48, 48, .2), rgba(167, 67, 67, .4)),
+  } */
+
+ 
+
+  .hamburger-menu {
+      width: 35px;
+      height: 30px;
+      position: fixed;
+      top: 15px;
+      right: 50px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .line {
+      width: 100%;
+      height: 3px;
+      background-color:	white;
+      transition: all 0.8s;
+  }
+
+ .change .line-1 {
+      transform: rotateZ(-405deg) translate(-8px, 6px);
+
+  }
+ .change .line-2 {
+    opacity: 0;
+    
+}
+
+ .change .line-3 {
+    transform: rotateZ(405deg)  translate(-8px, -6px);
+    
+}
+
+  .navbar {
+      width: 300px;
+      height: 100%;
+      background-color: #021C23;
+      position: fixed;
+      top: 0;
+      right: -300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 60% 0 0 60%;
+      transition: right .8s cubic-bezier(1, 0, 0, 1);
+  }
+
+  .change {
+      right: 0;
+  }
+
+  .nav-list {
+      text-align: right;
+  }
+
+  .nav-item {
+      list-style: none;
+      margin: 25px;
+  }
+
+   .nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: #eee;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 25px;
+  }
+
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+
+}  
+
+.initial {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    margin-left: 50px;
+    padding-top: 8px;
+    font-size: 190%;
+}
+
+.fronttext {
+    position: fixed;
+    margin-top: 100px;
+    color: white;
+    font-size: 450%;
+}
+
+.secondtext {
+    position: fixed;
+    margin-top: 220px;
+    color: white;
+    font-size: 250%;
+}
+aside h3 {
+    color: white;
+    word-spacing: 30px;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin-top: 365px;
+   
+}
+
+
+/*.container {
+   
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    
+   opacity: 0.8;     
+width: 18%;
+    height: 75%;
+    margin-left: 1000px;
+    padding-top: 100px;  
+    
+}*/
+
+
+.mainimg {
+    opacity: 0.8;
+
+     width: 900px;
+    height: 700px;
+    margin-top: 25px;
+    margin-right: 45px; 
+}
+
+.fronttext {
+    word-spacing: 10px;
+}
+.mypic {
+    opacity: 0.8;
+    width: 30%;
+    height: 35%;
+    margin-right: 65px;
+    padding-top: 70px; 
+}
+
+
+
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+  
+.mybkgrd {
+    width: 1175px;
+    height: 700px;
+    margin-right: 300px;
+}
+
+.contain {
+    position: relative;
+}
+
+.allthingstech {
+    position: absolute;
+    top: 300px;
+    right: 1000px;
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.aboutheading {
+    font-family: 'Handlee', cursive;
+    position: absolute;
+    top: 50px;
+    color: black;
+    right: 520px;
+}
+
+.anothermypic {
+    position: absolute;
+    top: 10px;
+    right: 350px;
+    width: 8%;
+    border: 5px solid #031F25;
+}
+
+.allthingstext {
+    font-family: 'Handlee', cursive;
+    position: absolute;
+    top: 245px;
+    color: black;
+    left: 220px;
+}
+
+.buildingvision {
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 350px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.lovebuildingvision {
+    font-family: 'Handlee', cursive;
+    position: absolute;
+    top: 625px;
+    color: black;
+    right: 480px;
+   
+}
+
+
+.contact {
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://i.postimg.cc/SsZ5GHKK/augustine-wong-3-Om4-DHca-Ac0-unsplash.jpg');
+    
+}
+/* width: 1175px;
+height: 700px;
+margin-right: 300px; */
