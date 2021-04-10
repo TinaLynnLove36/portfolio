@@ -16,16 +16,6 @@ body {
    
   }
 
-  .test {
-      position: absolute;
-  }
-  html {
-      scroll-behavior: smooth;
-  }
-  
-
- 
-
   .hamburger-menu {
       width: 35px;
       height: 30px;
@@ -151,18 +141,12 @@ body {
 }
 
 .emailPortfolio {
-    
- 
-
     position: absolute;
     left: 0;
     margin-left: 30px;
     transform-origin: 0 0;
     transform: rotate(270deg);
     margin-top: 270px;
-    
-   
-
 }
 
 .mainimg {
@@ -185,8 +169,6 @@ body {
     border: 5px solid white;
     border-radius: 25px;
 }
-
-
 
   
 .mybkgrd {
@@ -325,7 +307,7 @@ body {
 
  .contactContainer .contactInfo .box .text h3 {
     font-weight: 500;
-    color: #204A56
+    color: #204A56;
 }
 
 .contactForm {
@@ -400,9 +382,7 @@ color: white;
     margin-left: 200px;
 
 }
-/* width: 1175px;
-height: 700px;
-margin-right: 300px; */
+
 
 @media screen and (max-width: 900px) {
     .mypic {
@@ -416,6 +396,23 @@ margin-right: 300px; */
       margin-left: -280px;
        
     }
+    
+  .projContainer {
+      padding-left: 100px;
+      margin-top: 50px;
+   
+  }
+
+  .projbkgrd {
+
+  
+      height: 20%;
+      margin-right: -100px;
+      float: none;
+      padding-right: 300px;
+  }
+
+ 
 
     .secondtext {
         margin-top: 650px;
@@ -428,10 +425,19 @@ margin-right: 300px; */
         
     }
 
+    .tinaProject {
+        margin-right: -1000px;
+        padding-right: 200px;
+    }
+
+  
+    .projectSymbols {
+       display: none;
+    }
+
     .contain {
       position: relative;
- 
-        margin-right: -1050px;
+    margin-right: -1050px;
         
     }
     .aboutSymbols {
@@ -454,6 +460,148 @@ margin-right: 300px; */
         display:none;
     }
  }
+
+
+ .gallery {
+     font-family: 'Handlee', cursive;
+     color: black;
+     background-color: blue;
+     position: absolute;
+     width: 300px;
+     height: 100px;
+     border: 1px solid blue;
+     border-radius: 10px;
+     margin-left: 200px;
+ 
+ }
+
+ .tinaProject {
+    font-family: 'Handlee', cursive;
+    position: absolute;
+    top: 150px;
+    color: black;
+    right: 570px;
+}
+
+.projContainer {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 90px;
+    top: 200px;
+}
+
+.projContainer .projBox {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.projContainer .projBox .projIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #204A56;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.projContainer .projBox:hover .projIcon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.projContainer .projBox .projIcon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.projContainer .projBox:hover .projIcon .fa {
+   font-size: 40px;
+}
+
+.projContainer .projBox .projContent {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.projContainer .projBox:hover .projContent {
+    top: 100px;
+    opacity: 1;
+}
+
+
+
+.projContainer .projBox .projContent h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.projContainer .projBox .projContent p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.projContainer .projBox:nth-child(1) .projIcon {
+    background: #01242F;
+}
+
+.projContainer .projBox:nth-child(1) {
+    background: #021117;
+}
+
+.projContainer .projBox:nth-child(2) .projIcon {
+    background: #01242F;
+}
+
+.projContainer .projBox:nth-child(2)  {
+    background: #021117;
+}
+
+.projContainer .projBox:nth-child(3) .projIcon {
+    background: #01242F;
+}
+
+.projContainer .projBox:nth-child(3)  {
+    background: #021117;
+}
+
+
+
+.projbkgrd {
+    width: 1190px;
+    height: 150%;
+    margin-left: 100px;
+    position:absolute;
+
+}
+
+ 
 
  
 
